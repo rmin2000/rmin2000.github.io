@@ -12,7 +12,7 @@ Hi, I am currently a first-year Ph.D. student in the Department of Computer Scie
 
 Work experience
 ======
-* 2021.10 - 2022.08: Research Intern, SenseTime Research, Beijing
+* 2021.10 - 2022.08: Research Intern, SenseTime Research, Beijing (Mentor: Huafeng Shi)
 
 Publications
 ======
