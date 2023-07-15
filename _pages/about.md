@@ -20,3 +20,8 @@ Publications
 \* denote equal contribution
 
 * **Identification of the Adversary from a Single Adversarial Example**, Minhao Cheng, Rui Min, Haochen Sun, Pin-Yu Chen, *In International Conference on Machine Learning (ICML), 2023.* (A short version appears in NeurIPS Workshop on Machine Learning Safety, 2022) [[pdf](https://openreview.net/pdf?id=HBrQI0tX8F)] [[code](https://github.com/rmin2000/adv_tracing)]
+
+Preprints
+======
+
+* **Universal Backdoor Attacks Detection via Adaptive Adversarial Probe**, Yuhang Wang, Huafeng Shi, Rui Min, Ruijia Wu, Siyuan Liang, Yichao Wu, Ding Liang, Aishan Liu [[arXiv](https://arxiv.org/abs/2209.05244)]
