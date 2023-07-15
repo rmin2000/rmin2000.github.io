@@ -19,4 +19,4 @@ Publications
 <!-- [→ Full list](/projects/) -->
 \* denote equal contribution
 
-* **Identification of the Adversary from a Single Adversarial Example**, Minhao Cheng, Rui Min, Haochen Sun, Pin-Yu Chen, *To appear in International Conference on Machine Learning (ICML), 2023.* (A short version appears in NeurIPS Workshop on Machine Learning Safety, 2022)
+* **Identification of the Adversary from a Single Adversarial Example**, Minhao Cheng, Rui Min, Haochen Sun, Pin-Yu Chen, *In International Conference on Machine Learning (ICML), 2023.* (A short version appears in NeurIPS Workshop on Machine Learning Safety, 2022) [[pdf](https://openreview.net/pdf?id=HBrQI0tX8F)] [[code](https://github.com/rmin2000/adv_tracing)]
