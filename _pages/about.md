@@ -10,6 +10,11 @@ redirect_from:
 
 Hi, I am currently a first-year Ph.D. student in the Department of Computer Science Engineering (HKUST) under the supervision of [Prof. Minhao Cheng](https://cmhcbb.github.io/). Before starting the Ph.D., I received a B.Eng. degree in Telecommunication Engineering from a joint program (BUPT & QMUL). My interest lies broadly in AI safety with a special focus on backdoor learning. 
 
+Education
+======
+* 2018 - 2022: B.Eng. in Telecommunication, Beijing University of Posts and Telecommunications
+* 2023 - present: Ph.D. student in Computer Science, Hong Kong University of Science and Technology
+
 Work experience
 ======
 * 2021.10 - 2022.08: Research Intern, SenseTime Research, Beijing (Mentor: Huafeng Shi)
