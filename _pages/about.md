@@ -17,7 +17,7 @@ Education
 
 Work experience
 ======
-* 2021.10 - 2022.08: Research Intern, SenseTime Research, Beijing (Mentor: Huafeng Shi)
+* 2021.10 - 2022.08: Research Intern, SenseTime Research, Beijing
 
 Publications
 ======
