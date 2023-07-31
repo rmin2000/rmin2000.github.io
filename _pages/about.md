@@ -12,8 +12,9 @@ Hi, I am currently a first-year Ph.D. student in the Department of Computer Scie
 
 Education
 ======
-* 2018 - 2022: B.Eng. in Telecommunication, Beijing University of Posts and Telecommunications
+
 * 2023 - present: Ph.D. student in Computer Science, Hong Kong University of Science and Technology
+* 2018 - 2022: B.Eng. in Telecommunication, Beijing University of Posts and Telecommunications
 
 Work experience
 ======
