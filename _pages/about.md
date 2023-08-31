@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Hi, I am a first-year Ph.D. student in the Department of Computer Science Engineering (HKUST) under the supervision of [Prof. Minhao Cheng](https://cmhcbb.github.io/). Before starting the Ph.D., I received a B.Eng. degree in Telecommunication Engineering from the joint program (BUPT & QMUL). My interest lies broadly in AI safety with a special focus on backdoor learning. 
+Greetings, I am a first-year Ph.D. student in the Department of Computer Science Engineering (HKUST) under the supervision of [Prof. Minhao Cheng](https://cmhcbb.github.io/). Before starting the Ph.D., I received my B.Eng. degree in Telecommunication Engineering from the joint program (BUPT & QMUL). My interest currently lies broadly in AI safety and robustness. 
 
 Education
 ======
