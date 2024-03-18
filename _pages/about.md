@@ -16,7 +16,7 @@ Education
 * 2023 - present: Ph.D. student in Computer Science, Hong Kong University of Science and Technology
 * 2018 - 2022: B.Eng. in Telecommunication, Beijing University of Posts and Telecommunications
 
-Work experience
+Internship
 ======
 * 2021.10 - 2022.08: Research Intern, SenseTime Research, Beijing
 
@@ -32,5 +32,5 @@ Publications
 Preprints
 ======
 
-* **Universal Backdoor Attacks Detection via Adaptive Adversarial Probe**, Yuhang Wang, Huafeng Shi, Rui Min, Ruijia Wu, Siyuan Liang, Yichao Wu, Ding Liang, Aishan Liu [[arXiv](https://arxiv.org/abs/2209.05244)]
+* **Universal Backdoor Attacks Detection via Adaptive Adversarial Probe**, Yuhang Wang, Huafeng Shi, **Rui Min**, Ruijia Wu, Siyuan Liang, Yichao Wu, Ding Liang, Aishan Liu [[arXiv](https://arxiv.org/abs/2209.05244)]
 * **A Watermark-Conditioned Diffusion Model for IP Protection**, **Rui Min**, Sen Li, Hongyang Chen, Minhao Cheng [arXiv]
