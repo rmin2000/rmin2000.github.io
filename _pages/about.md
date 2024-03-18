@@ -33,3 +33,4 @@ Preprints
 ======
 
 * **Universal Backdoor Attacks Detection via Adaptive Adversarial Probe**, Yuhang Wang, Huafeng Shi, Rui Min, Ruijia Wu, Siyuan Liang, Yichao Wu, Ding Liang, Aishan Liu [[arXiv](https://arxiv.org/abs/2209.05244)]
+* **A Watermark-Conditioned Diffusion Model for IP Protection**, **Rui Min**, Sen Li, Hongyang Chen, Minhao Cheng [arXiv]
