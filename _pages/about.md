@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Greetings, I am a first-year Ph.D. student in the Department of Computer Science Engineering (HKUST) under the supervision of [Prof. Minhao Cheng](https://cmhcbb.github.io/). Before starting the Ph.D., I received my B.Eng. degree in Telecommunication Engineering from the joint program (BUPT & QMUL). My interest currently lies broadly in AI safety and robustness. 
+Greetings, I am a first-year Ph.D. student in the Department of Computer Science Engineering (HKUST) under the supervision of [Prof. Minhao Cheng](https://cmhcbb.github.io/) and [Nevin L. Zhang](https://www.cse.ust.hk/faculty/lzhang/). Previously, I received my B.Eng. degree in Telecommunication Engineering from the joint program (BUPT & QMUL). My interest currently lies broadly in AI safety. 
 
 Education
 ======
@@ -18,7 +18,9 @@ Education
 
 Internship
 ======
-* 2021.10 - 2022.08: Research Intern, SenseTime Research, Beijing
+* 2021.10 - 2022.08: Research Intern, SenseTime Research
+* 2024.05 - present: Research Intern, Sea AI Lab
+
 
 Publications
 ======
