@@ -27,6 +27,9 @@ Publications
 <!-- [→ Full list](/projects/) -->
 \* denote equal contribution
 
+* **A Watermark-Conditioned Diffusion Model for IP Protection** \
+**Rui Min**, Sen Li, Hongyang Chen, Minhao Cheng *To Appear in European Conference on Computer Vision (ECCV), 2024.* [[pdf](https://arxiv.org/abs/2403.10893)][[code](https://github.com/rmin2000/WaDiff)]
+
 * **Towards Stable Backdoor Purification with Feature Shift Tuning** \
 **Rui Min**\*, Zeyu Qin\*, Li Shen, Minhao Cheng, *In Advances in Neural Information Processing Systems (NeurIPS), 2023.* [[pdf](https://arxiv.org/abs/2310.01875)] [[code](https://github.com/AISafety-HKUST/stable_backdoor_purification)]
 
@@ -38,5 +41,4 @@ Preprints
 
 * **Universal Backdoor Attacks Detection via Adaptive Adversarial Probe** \
 Yuhang Wang, Huafeng Shi, **Rui Min**, Ruijia Wu, Siyuan Liang, Yichao Wu, Ding Liang, Aishan Liu [[arXiv](https://arxiv.org/abs/2209.05244)]
-* **A Watermark-Conditioned Diffusion Model for IP Protection** \
-**Rui Min**, Sen Li, Hongyang Chen, Minhao Cheng [[arXiv](https://arxiv.org/abs/2403.10893)]
+
