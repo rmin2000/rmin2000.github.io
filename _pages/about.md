@@ -28,13 +28,13 @@ Publications
 \* denote equal contribution
 
 * **A Watermark-Conditioned Diffusion Model for IP Protection** \
-**Rui Min**, Sen Li, Hongyang Chen, Minhao Cheng, *To Appear in European Conference on Computer Vision (ECCV), 2024.* [[pdf](https://arxiv.org/abs/2403.10893)] [[code](https://github.com/rmin2000/WaDiff)]
+**Rui Min**, Sen Li, Hongyang Chen, Minhao Cheng, *To Appear in European Conference on Computer Vision (**ECCV**), 2024.* [[pdf](https://arxiv.org/abs/2403.10893)] [[code](https://github.com/rmin2000/WaDiff)]
 
 * **Towards Stable Backdoor Purification with Feature Shift Tuning** \
-**Rui Min**\*, Zeyu Qin\*, Li Shen, Minhao Cheng, *In Advances in Neural Information Processing Systems (NeurIPS), 2023.* [[pdf](https://arxiv.org/abs/2310.01875)] [[code](https://github.com/AISafety-HKUST/stable_backdoor_purification)]
+**Rui Min**\*, Zeyu Qin\*, Li Shen, Minhao Cheng, *In Advances in Neural Information Processing Systems (**NeurIPS**), 2023.* [[pdf](https://arxiv.org/abs/2310.01875)] [[code](https://github.com/AISafety-HKUST/stable_backdoor_purification)]
 
 * **Identification of the Adversary from a Single Adversarial Example** \
-Minhao Cheng, **Rui Min**, Haochen Sun, Pin-Yu Chen, *In International Conference on Machine Learning (ICML), 2023.* (A short version appears in NeurIPS Workshop on Machine Learning Safety, 2022) [[pdf](https://openreview.net/pdf?id=HBrQI0tX8F)] [[code](https://github.com/rmin2000/adv_tracing)]
+Minhao Cheng, **Rui Min**, Haochen Sun, Pin-Yu Chen, *In International Conference on Machine Learning (**ICML**), 2023.* (A short version appears in NeurIPS Workshop on Machine Learning Safety, 2022) [[pdf](https://openreview.net/pdf?id=HBrQI0tX8F)] [[code](https://github.com/rmin2000/adv_tracing)]
 
 Preprints
 ======
