@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Greetings, I am a Ph.D. student in the Department of Computer Science Engineering (HKUST) under the supervision of [Prof. Minhao Cheng](https://cmhcbb.github.io/) and [Prof. Nevin L. Zhang](https://www.cse.ust.hk/faculty/lzhang/). Previously, I received my B.Eng. degree in Telecommunication Engineering from the joint program (BUPT & QMUL). My interest currently lies broadly in AI safety. 
+Greetings, I am a Ph.D. student in the Department of Computer Science Engineering (HKUST) under the supervision of [Prof. Minhao Cheng](https://cmhcbb.github.io/) and [Prof. Nevin L. Zhang](https://www.cse.ust.hk/faculty/lzhang/). My interest currently lies broadly in AI safety. 
 
 Education
 ======
