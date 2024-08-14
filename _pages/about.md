@@ -45,4 +45,4 @@ Yuhang Wang, Huafeng Shi, **Rui Min**, Ruijia Wu, Siyuan Liang, Yichao Wu, Ding 
 Services
 ======
 
-* Reviewer: AAAI 2024, 2025, ICML 2024, NeurIPS 2024
+* Reviewer: AAAI; ICML; NeurIPS
