@@ -50,4 +50,3 @@ Services
 <a href="https://www.easycounter.com/">
 <img src="https://www.easycounter.com/counter.php?ruim"
 border="0" alt="Website Hit Counter"></a>
-<!-- <br><a href="https://www.easycounter.com/">page counter</a> -->
