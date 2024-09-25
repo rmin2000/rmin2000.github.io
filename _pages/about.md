@@ -28,7 +28,7 @@ Publications
 \* denote equal contribution
 
 * **Post-Purification Robustness of Backdoor Defenses** \
-**Rui Min**\*, Zeyu Qin\*, Nevin L. Zhang, Li Shen, Minhao Cheng, *To Appear In Advances in Neural Information Processing Systems (**NeurIPS**), 2024.* <span style="color: red;">spotlight</span>
+**Rui Min**\*, Zeyu Qin\*, Nevin L. Zhang, Li Shen, Minhao Cheng, *To Appear In Advances in Neural Information Processing Systems (**NeurIPS**), 2024.* (<span style="color: red;">**Spotlight**</span>)
   
 * **A Watermark-Conditioned Diffusion Model for IP Protection** \
 **Rui Min**, Sen Li, Hongyang Chen, Minhao Cheng, *In European Conference on Computer Vision (**ECCV**), 2024.* [[pdf](https://arxiv.org/abs/2403.10893)] [[code](https://github.com/rmin2000/WaDiff)]
