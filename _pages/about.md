@@ -25,9 +25,9 @@ Internship
 Publications
 ======
 <!-- [→ Full list](/projects/) -->
-\* denote equal contribution
+\* denotes equal contribution
 
-* **Post-Purification Robustness of Backdoor Defenses** \
+* **Uncovering, Explaining, and Mitigating the Superficial Safety of Backdoor Defense** \
 **Rui Min**\*, Zeyu Qin\*, Nevin L. Zhang, Li Shen, Minhao Cheng, *To Appear In Advances in Neural Information Processing Systems (**NeurIPS**), 2024.* (<span style="color: red;">**Spotlight**</span>)
   
 * **A Watermark-Conditioned Diffusion Model for IP Protection** \
