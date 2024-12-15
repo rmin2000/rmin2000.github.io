@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Greetings, I am a graduate student in the Department of Computer Science Engineering (HKUST) under the supervision of [Prof. Minhao Cheng](https://cmhcbb.github.io/) and [Prof. Nevin L. Zhang](https://www.cse.ust.hk/faculty/lzhang/). My interest lies broadly in AI safety. 
+Greetings, I am a graduate student in the Department of Computer Science Engineering (HKUST) under the supervision of [Prof. Minhao Cheng](https://cmhcbb.github.io/). My interest lies broadly in AI safety. 
 
 Education
 ======
