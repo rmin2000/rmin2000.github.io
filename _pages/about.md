@@ -27,17 +27,20 @@ Publications
 <!-- [→ Full list](/projects/) -->
 \* denotes equal contribution
 
-* **Uncovering, Explaining, and Mitigating the Superficial Safety of Backdoor Defense** \
-**Rui Min**\*, Zeyu Qin\*, Nevin L. Zhang, Li Shen, Minhao Cheng, *In Advances in Neural Information Processing Systems (**NeurIPS**), 2024.* (<span style="color: red;">**Spotlight**</span>) [[pdf](https://arxiv.org/pdf/2410.09838)] [[code](https://github.com/AISafety-HKUST/stable_backdoor_purification)]
+* **RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style** [[pdf](https://arxiv.org/abs/2410.16184)] [[code](https://github.com/THU-KEG/RM-Bench)] \
+Yantao Liu, Zijun Yao, **Rui Min**, Yixin Cao, Lei Hou, Juanzi Li, *In International Conference on Learning Representations (**ICLR**), 2025.* 
+
+* **Uncovering, Explaining, and Mitigating the Superficial Safety of Backdoor Defense** [[pdf](https://arxiv.org/pdf/2410.09838)] [[code](https://github.com/AISafety-HKUST/stable_backdoor_purification)] \
+**Rui Min**\*, Zeyu Qin\*, Nevin L. Zhang, Li Shen, Minhao Cheng, *In Advances in Neural Information Processing Systems (**NeurIPS**), 2024.* (<span style="color: red;">**Spotlight**</span>) 
   
-* **A Watermark-Conditioned Diffusion Model for IP Protection** \
-**Rui Min**, Sen Li, Hongyang Chen, Minhao Cheng, *In European Conference on Computer Vision (**ECCV**), 2024.* [[pdf](https://arxiv.org/abs/2403.10893)] [[code](https://github.com/rmin2000/WaDiff)]
+* **A Watermark-Conditioned Diffusion Model for IP Protection** [[pdf](https://arxiv.org/abs/2403.10893)] [[code](https://github.com/rmin2000/WaDiff)] \
+**Rui Min**, Sen Li, Hongyang Chen, Minhao Cheng, *In European Conference on Computer Vision (**ECCV**), 2024.* 
 
-* **Towards Stable Backdoor Purification with Feature Shift Tuning** \
-**Rui Min**\*, Zeyu Qin\*, Li Shen, Minhao Cheng, *In Advances in Neural Information Processing Systems (**NeurIPS**), 2023.* [[pdf](https://arxiv.org/abs/2310.01875)] [[code](https://github.com/AISafety-HKUST/stable_backdoor_purification)]
+* **Towards Stable Backdoor Purification with Feature Shift Tuning** [[pdf](https://arxiv.org/abs/2310.01875)] [[code](https://github.com/AISafety-HKUST/stable_backdoor_purification)] \
+**Rui Min**\*, Zeyu Qin\*, Li Shen, Minhao Cheng, *In Advances in Neural Information Processing Systems (**NeurIPS**), 2023.* 
 
-* **Identification of the Adversary from a Single Adversarial Example** \
-Minhao Cheng, **Rui Min**, Haochen Sun, Pin-Yu Chen, *In International Conference on Machine Learning (**ICML**), 2023.* (A short version appears in NeurIPS Workshop on Machine Learning Safety, 2022) [[pdf](https://openreview.net/pdf?id=HBrQI0tX8F)] [[code](https://github.com/rmin2000/adv_tracing)]
+* **Identification of the Adversary from a Single Adversarial Example** [[pdf](https://openreview.net/pdf?id=HBrQI0tX8F)] [[code](https://github.com/rmin2000/adv_tracing)] \
+Minhao Cheng, **Rui Min**, Haochen Sun, Pin-Yu Chen, *In International Conference on Machine Learning (**ICML**), 2023.* (A short version appears in NeurIPS Workshop on Machine Learning Safety, 2022) 
 
 Preprints
 ======
