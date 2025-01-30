@@ -44,6 +44,8 @@ Minhao Cheng, **Rui Min**, Haochen Sun, Pin-Yu Chen, *In International Conferenc
 
 Preprints
 ======
+* **Improving Your Model Ranking on Chatbot Arena by Vote Rigging** \
+**Rui Min**\*, Tianyu Pang\*, Chao Du, Qian Liu, Minhao Cheng, Min Lin [[arXiv](https://arxiv.org/abs/2501.17858v1)][[code](https://github.com/sail-sg/Rigging-ChatbotArena)]
 
 * **Universal Backdoor Attacks Detection via Adaptive Adversarial Probe** \
 Yuhang Wang, Huafeng Shi, **Rui Min**, Ruijia Wu, Siyuan Liang, Yichao Wu, Ding Liang, Aishan Liu [[arXiv](https://arxiv.org/abs/2209.05244)]
