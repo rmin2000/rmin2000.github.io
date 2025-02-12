@@ -28,7 +28,7 @@ Publications
 \* denotes equal contribution
 
 * **RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style** [[pdf](https://arxiv.org/abs/2410.16184)] [[code](https://github.com/THU-KEG/RM-Bench)] \
-Yantao Liu, Zijun Yao, **Rui Min**, Yixin Cao, Lei Hou, Juanzi Li, *In International Conference on Learning Representations (**ICLR**), 2025.* 
+Yantao Liu, Zijun Yao, **Rui Min**, Yixin Cao, Lei Hou, Juanzi Li, *In International Conference on Learning Representations (**ICLR**), 2025.* (<span style="color: red;">**Oral**</span>) 
 
 * **Uncovering, Explaining, and Mitigating the Superficial Safety of Backdoor Defense** [[pdf](https://arxiv.org/pdf/2410.09838)] [[code](https://github.com/AISafety-HKUST/stable_backdoor_purification)] \
 **Rui Min**\*, Zeyu Qin\*, Nevin L. Zhang, Li Shen, Minhao Cheng, *In Advances in Neural Information Processing Systems (**NeurIPS**), 2024.* (<span style="color: red;">**Spotlight**</span>) 
