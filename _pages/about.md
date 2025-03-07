@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Greetings, I am a graduate student in the Department of Computer Science Engineering (HKUST) under the supervision of [Prof. Minhao Cheng](https://cmhcbb.github.io/). My interest lies broadly in AI safety. 
+Greetings, I am a graduate student in the Department of Computer Science Engineering (HKUST) under the co-supervision of [Prof. Yi R. (May) Fung](https://mayrfung.github.io/) and [Prof. Minhao Cheng](https://cmhcbb.github.io/). My interest lies broadly in (Trustworthy) Machine Learning in Large Models. 
 
 Education
 ======
