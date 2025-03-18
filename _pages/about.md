@@ -44,8 +44,8 @@ Minhao Cheng, **Rui Min**, Haochen Sun, Pin-Yu Chen, *In International Conferenc
 
 Preprints
 ======
-* **Pairwise RM: Perform Best-of-N Sampling with Knockout Tournament** \
-Yantao Liu, Zijun Yao, **Rui Min**, Yixin Cao, Lei Hou, Juanzi Li [[arXiv](https://arxiv.org/abs/2501.13007)] [[code](https://github.com/THU-KEG/PairJudgeRM/)]
+* **Pairwise RM: Perform Best-of-N Sampling with Knockout Tournament** [[arXiv](https://arxiv.org/abs/2501.13007)] [[code](https://github.com/THU-KEG/PairJudgeRM/)] \
+Yantao Liu, Zijun Yao, **Rui Min**, Yixin Cao, Lei Hou, Juanzi Li, *In ICLR Workshop on Foundation Models in the Wild, 2025*
 
 * **Improving Your Model Ranking on Chatbot Arena by Vote Rigging** \
 **Rui Min**\*, Tianyu Pang\*, Chao Du, Qian Liu, Minhao Cheng, Min Lin [[arXiv](https://arxiv.org/abs/2501.17858v1)] [[code](https://github.com/sail-sg/Rigging-ChatbotArena)]
