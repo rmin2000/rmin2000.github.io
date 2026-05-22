@@ -1,254 +1,662 @@
 <!DOCTYPE HTML>
 <html lang="en">
-  <head>
+<head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
     <title>Rui Min</title>
-
     <meta name="author" content="Rui Min">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="images/favicon/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
     
-  </head>
+    <!-- Premium Academic & Tech Typefaces -->
+    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            /* Beijing-Inspired Premium Palette */
+            --bg-color: #fcfbfa;          /* Subtle Off-White / Fine Rice Paper */
+            --text-main: #222629;         /* Charcoal Ink / Deep Slate */
+            --text-muted: #606468;        /* Soft Ash Gray */
+            --accent-red: #8c2d19;        /* Deep Forbidden City Red / Vermilion */
+            --accent-blue: #2c4c64;       /* Scholar Blue */
+            --border-light: #e8e6e3;
+        }
 
-  <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr style="padding:0px">
-              <td style="padding:2.5%;width:63%;vertical-align:middle">
-                <p class="name" style="text-align: center;">
-                  Rui Min
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            line-height: 1.6;
+            letter-spacing: -0.01em;
+            padding: 80px 24px;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 760px;
+            margin: 0 auto;
+            container-type: inline-size;
+        }
+
+        /* --- Header / Bio Section --- */
+        .intro-grid {
+            display: grid;
+            grid-template-columns: 1fr 205px;
+            gap: 50px;
+            align-items: center;
+            margin-bottom: 64px;
+        }
+
+        .name {
+            font-family: 'Newsreader', serif;
+            font-size: 2.3rem;
+            font-weight: 500;
+            letter-spacing: -0.03em;
+            color: var(--text-main);
+            margin-bottom: 20px;
+        }
+
+        .bio-text p {
+            font-size: 0.95rem;
+            color: var(--text-main);
+            margin-bottom: 14px;
+        }
+
+        .bio-text strong {
+            font-weight: 600;
+            color: #000000;
+        }
+
+        .bio-text a {
+            color: var(--accent-blue);
+            text-decoration: underline;
+            text-decoration-thickness: 1px;
+            text-underline-offset: 3px;
+            transition: color 0.2s ease, text-decoration-color 0.2s ease;
+        }
+
+        .bio-text a:hover {
+            color: var(--accent-red);
+            text-decoration-color: rgba(140, 45, 25, 0.55);
+        }
+
+        .links-nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            font-size: 0.9rem;
+            margin-top: 24px;
+            text-align: center;
+        }
+
+        .links-nav a {
+            color: var(--accent-blue);
+            text-decoration: none;
+            font-weight: 500;
+            margin: 0;
+            padding-bottom: 2px;
+            border-bottom: 1px solid transparent;
+            transition: all 0.2s ease;
+        }
+
+        .links-nav a:hover {
+            color: var(--accent-red);
+            border-bottom-color: var(--accent-red);
+        }
+
+        .profile-wrapper {
+            text-align: right;
+            display: flex;
+            justify-content: flex-end;
+        }
+
+        .profile-img {
+            width: 205px;
+            height: 248px;
+            border-radius: 18px;
+            object-fit: cover;
+            filter: grayscale(8%) contrast(96%);
+            box-shadow: 0 14px 36px rgba(44, 44, 44, 0.08);
+        }
+
+        /* --- Section Titles --- */
+        h2 {
+            font-family: 'Newsreader', serif;
+            font-size: 1.45rem;
+            font-weight: 500;
+            color: var(--text-main);
+            margin-top: 60px;
+            margin-bottom: 24px;
+            letter-spacing: -0.01em;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::after {
+            content: '';
+            flex: 1;
+            height: 1px;
+            background-color: var(--border-light);
+            margin-left: 16px;
+        }
+
+        /* --- Research Papers Layout --- */
+        .papers-list {
+            display: flex;
+            flex-direction: column;
+            gap: 4px;
+        }
+
+        .paper-item {
+            display: grid;
+            grid-template-columns: 50px 1fr;
+            gap: 24px;
+            padding: 16px 12px;
+            border-radius: 6px;
+            transition: background-color 0.2s ease;
+        }
+
+        .paper-item:hover {
+            background-color: #f5f4f0;
+        }
+
+        .research-controls {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+            margin: -8px 0 18px;
+            padding: 0 12px;
+        }
+
+        .research-note {
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            letter-spacing: -0.01em;
+        }
+
+        .toggle-papers {
+            font-family: 'Plus Jakarta Sans', -apple-system, sans-serif;
+            font-size: 0.78rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            color: var(--accent-blue);
+            background-color: rgba(255, 255, 255, 0.42);
+            border: 1px solid var(--border-light);
+            border-radius: 999px;
+            padding: 7px 12px 7px 15px;
+            cursor: pointer;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            box-shadow: 0 8px 20px rgba(44, 44, 44, 0.03);
+            transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease, transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .toggle-papers:hover {
+            color: var(--accent-red);
+            border-color: rgba(140, 45, 25, 0.28);
+            background-color: rgba(140, 45, 25, 0.04);
+            box-shadow: 0 10px 24px rgba(140, 45, 25, 0.06);
+            transform: translateY(-1px);
+        }
+
+        .toggle-papers:focus-visible {
+            outline: 2px solid rgba(44, 76, 100, 0.22);
+            outline-offset: 3px;
+        }
+
+        .toggle-icon {
+            position: relative;
+            width: 11px;
+            height: 11px;
+            display: inline-block;
+        }
+
+        .toggle-icon::before,
+        .toggle-icon::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 5px;
+            width: 11px;
+            height: 1.5px;
+            border-radius: 999px;
+            background-color: currentColor;
+            transition: transform 0.22s ease;
+        }
+
+        .toggle-icon::after {
+            transform: rotate(90deg);
+        }
+
+        .toggle-papers.is-expanded .toggle-icon::after {
+            transform: rotate(0deg);
+        }
+
+        .paper-item {
+            max-height: 320px;
+            opacity: 1;
+            overflow: hidden;
+            transform: translateY(0);
+            transition: background-color 0.2s ease, opacity 0.26s ease, transform 0.26s ease, max-height 0.32s ease, padding 0.32s ease, margin 0.32s ease;
+        }
+
+        .paper-item.is-hidden {
+            max-height: 0;
+            opacity: 0;
+            padding-top: 0;
+            padding-bottom: 0;
+            margin-top: -4px;
+            pointer-events: none;
+            transform: translateY(-8px);
+        }
+
+        .paper-item[hidden] {
+            display: none;
+        }
+
+        .paper-year {
+            font-family: 'Newsreader', serif;
+            font-size: 1.14rem;
+            font-style: italic;
+            color: var(--text-muted);
+            padding-top: 1px;
+        }
+
+        .paper-title {
+            font-size: 0.96rem;
+            font-weight: 600;
+            color: #111111;
+            text-decoration: none;
+            display: inline-block;
+            margin-bottom: 4px;
+            transition: color 0.15s ease;
+        }
+
+        .paper-title:hover {
+            color: var(--accent-red);
+        }
+
+        .author-list {
+            font-size: 0.91rem;
+            color: var(--text-main);
+            margin-bottom: 4px;
+        }
+
+        .author-list u strong {
+            color: #000000;
+            font-weight: 600;
+        }
+
+        .venue {
+            font-size: 0.88rem;
+            color: var(--text-muted);
+        }
+
+        .venue strong {
+            color: var(--text-main);
+            font-weight: 500;
+        }
+
+        .paper-links {
+            font-size: 0.84rem;
+            margin-top: 8px;
+            display: flex;
+            gap: 12px;
+            row-gap: 8px;
+            flex-wrap: wrap;
+        }
+
+        .paper-links a {
+            color: var(--text-muted);
+            text-decoration: none;
+            font-weight: 500;
+            padding: 3px 7px;
+            background-color: rgba(0, 0, 0, 0.032);
+            border-radius: 6px;
+            transition: all 0.15s ease;
+        }
+
+        .paper-links a:hover {
+            color: var(--accent-red);
+            background-color: rgba(140, 45, 25, 0.06);
+        }
+
+        .highlight {
+            display: inline-flex;
+            align-items: center;
+            position: relative;
+            color: var(--accent-red);
+            font-weight: 600;
+            font-size: 0.74rem;
+            letter-spacing: 0.01em;
+            margin-left: 8px;
+            padding: 2px 7px;
+            border: 1px solid rgba(140, 45, 25, 0.18);
+            border-radius: 999px;
+            background: linear-gradient(135deg, rgba(140, 45, 25, 0.075), rgba(140, 45, 25, 0.025));
+            box-shadow: 0 6px 14px rgba(140, 45, 25, 0.04);
+        }
+
+        /* --- Footer --- */
+        footer {
+            margin-top: 96px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border-light);
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        .counter-img {
+            opacity: 0.4;
+            max-height: 11px;
+            filter: invert(0.1);
+        }
+
+        /* --- Responsive Viewports --- */
+        @media (max-width: 640px) {
+            body { padding: 48px 16px; }
+            .intro-grid { grid-template-columns: 1fr; gap: 32px; text-align: center; }
+            .profile-wrapper { justify-content: center; text-align: center; order: -1; }
+            .profile-img { width: 190px; height: 230px; }
+            .paper-item { grid-template-columns: 1fr; gap: 4px; padding: 12px 4px; }
+            .paper-year { font-size: 0.95rem; margin-bottom: 2px; }
+            .research-controls { align-items: flex-start; flex-direction: column; gap: 10px; padding: 0 4px; }
+            h2::after { margin-left: 12px; }
+            footer { justify-content: center; }
+        }
+
+        @container (max-width: 640px) {
+            .intro-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+                text-align: center;
+            }
+
+            .profile-wrapper {
+                justify-content: center;
+                text-align: center;
+                order: -1;
+            }
+
+            .profile-img {
+                width: 190px;
+                height: 230px;
+            }
+
+            .research-controls {
+                align-items: flex-start;
+                flex-direction: column;
+                gap: 10px;
+                padding: 0 4px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Bio Header (Updated advisor order) -->
+        <section class="intro-grid">
+            <div class="bio-text">
+                <h1 class="name">Rui Min</h1>
+                <p>
+                    Hi, I am a <strong>final-year Ph.D. student</strong> at the Hong Kong University of Science and Technology (HKUST), co-supervised by
+                    <a href="https://cmhcbb.github.io/" target="_blank">Prof. Minhao Cheng</a> and
+                    <a href="https://mayrfung.github.io/" target="_blank">Prof. Yi R. (May) Fung</a>.
+                    My research interests broadly span <strong>(Trustworthy) Machine Learning</strong> and <strong>LLM Agents</strong>.
                 </p>
                 <p>
-                  Hi, I am a graduate student at Hong Kong University of Science and Technology (HKUST) under the co-supervision of <a href="https://mayrfung.github.io/">Prof. Yi R. (May) Fung</a> and <a href="https://cmhcbb.github.io/">Prof. Minhao Cheng</a>. My interest lies broadly in (Trustworthy) Machine Learning and LLM Agent.
+                    I am currently an intern at <strong>UniPat AI</strong>. Previously, I interned at <b>Sea AI Lab</b>, where I worked with
+                    <a href="https://p2333.github.io" target="_blank">Dr. Tianyu Pang</a> and
+                    <a href="https://duchao0726.github.io" target="_blank">Dr. Chao Du</a>,
+                    and at <b>Alibaba Tongyi Lab</b>, where I focused on deep research. I received my B.Eng. from Beijing University of Posts and Telecommunications (BUPT) and Queen Mary University of London (QMUL).
                 </p>
-                <p>
-                  Before that, I received my B.Eng. from Beijing University of Posts and Telecommunications (BUPT) and Queen Mary University of London (QMUL). Currently, I am also a research associate member at <a href="https://sail.sea.com/">Sea AI Lab</a> mentored by <a href="https://p2333.github.io">Dr. Tianyu Pang</a> and <a href="https://duchao0726.github.io">Dr. Chao Du</a>.
-                </p>
-                <p style="text-align:center">
-                  <a href="mailto:rminaa@connect.ust.hk">Email</a> &nbsp;/&nbsp;
-                  <a href="https://scholar.google.ch/citations?user=XK4mvxUAAAAJ&hl">Scholar</a> &nbsp;/&nbsp;
-                  <a href="https://github.com/rmin2000">Github</a>
-                </p>
-              </td>
-              <td style="padding:2.5%;width:37%;max-width:37%">
-                <a href="images/minr.jpg"><img style="width:100%;max-width:100%;object-fit: cover; border-radius: 50%;" alt="profile photo" src="images/minr.jpg" class="hoverZoomLink"></a>
-              </td>
-            </tr>
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px -3px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-              <tr>
-              <td style="padding:10px;width:100%;vertical-align:middle">
-                <h2>📝 Research</h2>
-                <hr style='background-color:black; height:2px; border:none;''/>
-                <p>* denotes equal contribution.</p>
-              </td>
-            </tr>
+                <div class="links-nav">
+                    <a href="mailto:rminaa@connect.ust.hk">Email</a>
+                    <a href="https://scholar.google.ch/citations?user=XK4mvxUAAAAJ&hl=en" target="_blank">Google Scholar</a>
+                    <a href="https://github.com/rmin2000" target="_blank">GitHub</a>
+                </div>
+            </div>
+            <div class="profile-wrapper">
+                <img src="images/minr.jpg" class="profile-img" alt="Rui Min">
+            </div>
+        </section>
 
+        <!-- Research Section -->
+        <section>
+            <h2>Research</h2>
+            <div class="research-controls">
+                <span class="research-note">* denotes equal contribution.</span>
+                <button class="toggle-papers" id="togglePapers" type="button" aria-expanded="false">
+                    <span class="toggle-text">Show all</span>
+                    <span class="toggle-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+            <div class="papers-list">
 
-            <tr>
-            <td style="padding: 10px;width:100%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2509.13309">
-                <papertitle>Tongyi DeepResearch Technical Report</papertitle>
-                </a>
-              <br>
-              Tongyi DeepResearch Team
-              <br>
-                Technical Report.
-              <br>
-              <a href="https://arxiv.org/abs/2510.24701">pdf</a> /
-			  <a href="https://github.com/Alibaba-NLP/DeepResearch">code</a> /
-              <a href="https://arxiv.org/abs/2509.13309">WebResearcher</a>
-              
-              
-            </td>
-           </tr>
-            
-            <tr>
-            <td style="padding: 10px;width:100%;vertical-align:middle">
-                <a href="https://openreview.net/forum?id=TN1XsCahN7">
-                <papertitle>RoMa: A Robust Model Watermarking Scheme for Protecting IP in Diffusion Models</papertitle>
-                </a>
-              <br>
-              Yingsha Xie, <u><strong>Rui Min</strong></u>, Zeyu Qin, Fei Ma, Li Shen, Fei Yu, Xiaochun Cao
-              <br>
-                Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2025.
-              <br>
-              <a href="https://openreview.net/forum?id=TN1XsCahN7">pdf</a> /
-			  <a href="https://github.com/xiekks/RoMa">code</a> /
-              <a href="https://openreview.net/forum?id=TN1XsCahN7">R2-FM Workshop (ICML 2025)</a>
-              
-            </td>
-           </tr>
-            
-           <tr>
-            <td style="padding: 10px;width:100%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2501.17858v1">
-                <papertitle>Improving Your Model Ranking on <font color="orange">Chatbot Arena</font> by Vote Rigging</papertitle>
-                </a>
-              <br>
-              <u><strong>Rui Min</strong></u>, Tianyu Pang*, Chao Du, Qian Liu, Minhao Cheng, Min Lin
-              <br>
-                International Conference on Machine Learning (<strong>ICML</strong>), 2025.
-              <br>
-              <a href="https://arxiv.org/abs/2501.17858v1">pdf</a> /
-              <a href="https://github.com/sail-sg/Rigging-ChatbotArena">code</a> /
-              <a href="https://www.fastcompany.com/91273226/rigged-votes-ai-model-rankings-chatbot-arena">media</a> /
-              <a href="https://openreview.net/forum?id=hAZp8KDKZr">FM-Wild Workshop (ICLR 2025)</a> 
-            </td>
-          </tr>
-  
-          <tr>
-            <td style="padding: 10px;width:100%;vertical-align:middle">
-                <a href="https://openreview.net/forum?id=QEHrmQPBdd">
-                <papertitle>RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style</papertitle>
-                </a>
-              <br>
-              Yantao Liu, Zijun Yao, <u><strong>Rui Min</strong></u>, Yixin Cao, Lei Hou, Juanzi Li
-              <br>
-                International Conference on Learning Representations (<strong>ICLR</strong>), 2025. (<font color="brown"><strong>Oral</strong></font>)
-              <br>
-              <a href="https://arxiv.org/abs/2410.16184">pdf</a> /
-              <a href="https://github.com/THU-KEG/RM-Bench">code</a>
-            </td>
-          </tr>
+                <!-- Real Project: Echo -->
+                <div class="paper-item" data-featured="true">
+                    <div class="paper-year">2026</div>
+                    <div>
+                        <a href="https://unipat.ai/blog/Echo" class="paper-title" target="_blank">Echo: Towards General AI Prediction</a>
+                        <div class="author-list">Zhengwei Tao, <u><strong>Rui Min*</strong></u>, Hongfeng He*, Jialong Wu, Baixuan Li, Liang Chen, Wentao Zhang, Kuan Li</div>
+                        <div class="venue">Research Blog</div>
+                        <div class="paper-links">
+                            <a href="https://unipat.ai/blog/Echo" target="_blank">blog</a>
+                            <a href="https://echo.unipat.ai/" target="_blank">leaderboard</a>
+                        </div>
+                    </div>
+                </div>
 
+                <!-- Technical Report: TokenHD -->
+                <div class="paper-item" data-featured="true">
+                    <div class="paper-year">2026</div>
+                    <div>
+                        <a href="https://arxiv.org/abs/2605.12384" class="paper-title" target="_blank">Scalable Token-Level Hallucination Detection in Large Language Models</a>
+                        <div class="author-list"><u><strong>Rui Min</strong></u>, Tianyu Pang, Chao Du, Minhao Cheng, Yi R. Fung</div>
+                        <div class="venue">Technical Report</div>
+                        <div class="paper-links">
+                            <a href="https://arxiv.org/abs/2605.12384" target="_blank">pdf</a>
+                            <a href="https://github.com/rmin2000/TokenHD" target="_blank">code</a>
+                        </div>
+                    </div>
+                </div>
 
-          <tr>
-            <td style="padding: 10px;width:100%;vertical-align:middle">
-                <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e8399e5e7aed601c9f135f40be26564-Abstract-Conference.html">
-                <papertitle>Uncovering, Explaining, and Mitigating the Superficial Safety of Backdoor Defense</papertitle>
-                </a>
-              <br>
-              <u><strong>Rui Min</strong></u>, Zeyu Qin*, Nevin L. Zhang, Li Shen, Minhao Cheng
-              <br>
-                Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2024. (<font color="brown"><strong>Spotlight</strong></font>)
-              <br>
-              <a href="https://arxiv.org/abs/2410.09838">pdf</a> /
-              <a href="https://github.com/AISafety-HKUST/stable_backdoor_purification">code</a>
-            </td>
-          </tr>
-
-
-          <tr>
-            <td style="padding: 10px;width:100%;vertical-align:middle">
-                <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8694_ECCV_2024_paper.php">
-                <papertitle>A Watermark-Conditioned Diffusion Model for IP Protection</papertitle>
-                </a>
-              <br>
-              <u><strong>Rui Min</strong></u>, Sen Li, Hongyang Chen, Minhao Cheng
-              <br>
-                European Conference on Computer Vision (<strong>ECCV</strong>), 2024.
-              <br>
-              <a href="https://arxiv.org/abs/2403.10893">pdf</a> /
-              <a href="https://github.com/rmin2000/WaDiff">code</a>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding: 10px;width:100%;vertical-align:middle">
-                <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/ee37d51b3c003d89acba2363dde256af-Abstract-Conference.html">
-                <papertitle>Towards Stable Backdoor Purification with Feature Shift Tuning</papertitle>
-                </a>
-              <br>
-              <u><strong>Rui Min</strong></u>, Zeyu Qin*, Li Shen, Minhao Cheng
-              <br>
-                Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>), 2023.
-              <br>
-              <a href="https://arxiv.org/abs/2310.01875">pdf</a> /
-              <a href="https://github.com/AISafety-HKUST/stable_backdoor_purification">code</a>
-            </td>
-          </tr>
-
-          <tr>
-            <td style="padding: 10px;width:100%;vertical-align:middle">
-                <a href="https://proceedings.mlr.press/v202/cheng23c.html">
-                <papertitle>Identification of the Adversary from a Single Adversarial Example</papertitle>
-                </a>
-              <br>
-              Minhao Cheng, <u><strong>Rui Min</strong></u>, Haochen Sun, Pin-Yu Chen
-              <br>
-                International Conference on Machine Learning (<strong>ICML</strong>), 2023.
-              <br>
-              <a href="https://openreview.net/pdf?id=HBrQI0tX8F">pdf</a> /
-              <a href="https://github.com/rmin2000/adv_tracing">code</a> /
-              <a href="https://openreview.net/forum?id=h1iJXAU9gDn">ML Safety Workshop (NeurIPS 2022)</a>
-            </td>
-          </tr>
-
-          <!-- <tr>
-              <td style="padding:10px;width:100%;vertical-align:middle">
-                <h2>🧑🏼‍🎓 Academic Service</h2>
-                <hr style='background-color:black; height:2px; border:none;''/>
-              </td>
-          </tr>
-
-          <tr>
-              <td style="padding:10px;width:100%;vertical-align:middle">
+                <!-- Paper: ICML 2026 -->
+                <div class="paper-item">
+                    <div class="paper-year">2026</div>
+                    <div>
+                        <a href="https://arxiv.org/abs/2605.01357" class="paper-title" target="_blank">On Stable Long-Form Generation: Benchmarking and Mitigating Length Volatility</a>
+                        <div class="author-list">Zhitao He, Haolin Yang, <u><strong>Rui Min</strong></u>, Zeyu Qin, Yi R. Fung</div>
+                        <div class="venue">International Conference on Machine Learning (<strong>ICML</strong>)</div>
+                        <div class="paper-links">
+                            <a href="https://arxiv.org/abs/2605.01357" target="_blank">pdf</a>
+                        </div>
+                    </div>
+                </div>
                 
-                I was a reviewer of:<br>
-                <strong>NeurIPS</strong>: 2024, 2025; 
-                <strong>ICML</strong>: 2024, 2025;
-                <strong>ICLR</strong>: 2025, 2026;
-                <strong>AAAI</strong>: 2024, 2025.
-                
-              </td>
-          </tr>   -->
+                <!-- Paper 1 -->
+                <div class="paper-item">
+                    <div class="paper-year">2025</div>
+                    <div>
+                        <a href="https://arxiv.org/abs/2510.24701" class="paper-title" target="_blank">Tongyi DeepResearch Technical Report</a>
+                        <div class="author-list">Tongyi DeepResearch Team</div>
+                        <div class="venue">Technical Report</div>
+                        <div class="paper-links">
+                            <a href="https://arxiv.org/abs/2510.24701" target="_blank">pdf</a>
+                            <a href="https://github.com/Alibaba-NLP/DeepResearch" target="_blank">code</a>
+                            <a href="https://arxiv.org/abs/2509.13309" target="_blank">WebResearcher</a>
+                        </div>
+                    </div>
+                </div>
 
-          <tr>
-              <td style="padding:10px;width:100%;vertical-align:middle">
-                <h2>🧑‍💻 Internship</h2>
-                <hr style='background-color:black; height:2px; border:none;''/>
-              </td>
-          </tr>
-		  
-                                                                             
-          <tr>
-            <td style="padding:10px;width:100%;vertical-align:middle">
-                <div style="display: flex; justify-content: space-between;">
-                    <strong>Alibaba Tongyi Lab (DeepResearch Team)</strong>
-                    <span>Aug 2025 – Now</span>
+                <!-- Paper 2 -->
+                <div class="paper-item">
+                    <div class="paper-year">2025</div>
+                    <div>
+                        <a href="https://openreview.net/forum?id=TN1XsCahN7" class="paper-title" target="_blank">RoMa: A Robust Model Watermarking Scheme for Protecting IP in Diffusion Models</a>
+                        <div class="author-list">Yingsha Xie, <u><strong>Rui Min</strong></u>, Zeyu Qin, Fei Ma, Li Shen, Fei Yu, Xiaochun Cao</div>
+                        <div class="venue">Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>)</div>
+                        <div class="paper-links">
+                            <a href="https://openreview.net/forum?id=TN1XsCahN7" target="_blank">pdf</a>
+                            <a href="https://github.com/xiekks/RoMa" target="_blank">code</a>
+                            <a href="https://openreview.net/forum?id=TN1XsCahN7" target="_blank">R2-FM Workshop (ICML 2025)</a>
+                        </div>
+                    </div>
                 </div>
-                <div style="display: flex; justify-content: space-between;">
-                    <strong>Sea AI Lab</strong>
-                    <span>Jun 2024 – Jul 2025</span>
+
+                <!-- Paper 3 -->
+                <div class="paper-item" data-featured="true">
+                    <div class="paper-year">2025</div>
+                    <div>
+                        <a href="https://arxiv.org/abs/2501.17858v1" class="paper-title" target="_blank">Improving Your Model Ranking on Chatbot Arena by Vote Rigging</a>
+                        <div class="author-list"><u><strong>Rui Min</strong></u>, Tianyu Pang*, Chao Du, Qian Liu, Minhao Cheng, Min Lin</div>
+                        <div class="venue">International Conference on Machine Learning (<strong>ICML</strong>)</div>
+                        <div class="paper-links">
+                            <a href="https://arxiv.org/abs/2501.17858v1" target="_blank">pdf</a>
+                            <a href="https://github.com/sail-sg/Rigging-ChatbotArena" target="_blank">code</a>
+                            <a href="https://www.fastcompany.com/91273226/rigged-votes-ai-model-rankings-chatbot-arena" target="_blank">media</a>
+                            <a href="https://openreview.net/forum?id=hAZp8KDKZr" target="_blank">FM-Wild Workshop (ICLR 2025)</a>
+                        </div>
+                    </div>
                 </div>
-                <div style="display: flex; justify-content: space-between;">
-                    <strong>SenseTime</strong>
-                    <span>Oct 2020 – Sep 2021</span>
+
+                <!-- Paper 4 -->
+                <div class="paper-item">
+                    <div class="paper-year">2025</div>
+                    <div>
+                        <a href="https://openreview.net/forum?id=QEHrmQPBdd" class="paper-title" target="_blank">RM-Bench: Benchmarking Reward Models of Language Models with Subtlety and Style</a>
+                        <div class="author-list">Yantao Liu, Zijun Yao, <u><strong>Rui Min</strong></u>, Yixin Cao, Lei Hou, Juanzi Li</div>
+                        <div class="venue">International Conference on Learning Representations (<strong>ICLR</strong>) <span class="highlight">Oral</span></div>
+                        <div class="paper-links">
+                            <a href="https://arxiv.org/abs/2410.16184" target="_blank">pdf</a>
+                            <a href="https://github.com/THU-KEG/RM-Bench" target="_blank">code</a>
+                        </div>
+                    </div>
                 </div>
-            </td>
-        </tr>                                                                 
-                                                                             
-                                                             
-                                                                             
-         
-            
-          <tr>
-             <td style="padding: 10px;width:100%">
-                <p style="text-align:left;">
-                <a href="https://www.easycounter.com/">
-                <img src="https://www.easycounter.com/counter.php?ruim"
-                border="0" alt="Website Hit Counter"></a>
-              </td>
-          </tr>
-            
-          </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:0px">
-                <br>
-                <p style="text-align:right;font-size:small;">
-                  Excellent template from this website's <a href="https://github.com/jonbarron/jonbarron_website">source code</a>.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
-        </td>
-      </tr>
-    </table>
-  </body>
+
+                <!-- Paper 5 -->
+                <div class="paper-item" data-featured="true">
+                    <div class="paper-year">2024</div>
+                    <div>
+                        <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/8e8399e5e7aed601c9f135f40be26564-Abstract-Conference.html" class="paper-title" target="_blank">Uncovering, Explaining, and Mitigating the Superficial Safety of Backdoor Defense</a>
+                        <div class="author-list"><u><strong>Rui Min</strong></u>, Zeyu Qin*, Nevin L. Zhang, Li Shen, Minhao Cheng</div>
+                        <div class="venue">Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>) <span class="highlight">Spotlight</span></div>
+                        <div class="paper-links">
+                            <a href="https://arxiv.org/abs/2410.09838" target="_blank">pdf</a>
+                            <a href="https://github.com/AISafety-HKUST/Backdoor_Safety_Tuning" target="_blank">code</a>
+                        </div>
+                    </div>
+                </div>
+
+               <!-- Paper 6: ECCV 2024 -->
+              <div class="paper-item" data-featured="true">
+                  <div class="paper-year">2024</div>
+                  <div>
+                      <a href="https://www.ecva.net/papers/eccv_2024/papers_ECCV/html/8694_ECCV_2024_paper.php" class="paper-title" target="_blank">A Watermark-Conditioned Diffusion Model for IP Protection</a>
+                      <div class="author-list"><u><strong>Rui Min</strong></u>, Sen Li, Hongyang Chen, Minhao Cheng</div>
+                      <div class="venue">European Conference on Computer Vision (<strong>ECCV</strong>)</div>
+                      <div class="paper-links">
+                          <a href="https://arxiv.org/abs/2403.10893" target="_blank">pdf</a>
+                          <a href="https://github.com/rmin2000/WaDiff" target="_blank">code</a>
+                      </div>
+                  </div>
+              </div>
+
+              <!-- Paper 7: NeurIPS 2023 -->
+              <div class="paper-item" data-featured="true">
+                  <div class="paper-year">2023</div>
+                  <div>
+                      <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/ee37d51b3c003d89acba2363dde256af-Abstract-Conference.html" class="paper-title" target="_blank">Towards Stable Backdoor Purification with Feature Shift Tuning</a>
+                      <div class="author-list"><u><strong>Rui Min</strong></u>, Zeyu Qin*, Li Shen, Minhao Cheng</div>
+                      <div class="venue">Advances in Neural Information Processing Systems (<strong>NeurIPS</strong>)</div>
+                      <div class="paper-links">
+                          <a href="https://arxiv.org/abs/2310.01875" target="_blank">pdf</a>
+                          <a href="https://github.com/AISafety-HKUST/stable_backdoor_purification" target="_blank">code</a>
+                      </div>
+                  </div>
+              </div>
+              
+              <!-- Paper 8: ICML 2023 -->
+              <div class="paper-item">
+                  <div class="paper-year">2023</div>
+                  <div>
+                      <a href="https://proceedings.mlr.press/v202/cheng23c.html" class="paper-title" target="_blank">Identification of the Adversary from a Single Adversarial Example</a>
+                      <div class="author-list">Minhao Cheng, <u><strong>Rui Min</strong></u>, Haochen Sun, Pin-Yu Chen</div>
+                      <div class="venue">International Conference on Machine Learning (<strong>ICML</strong>)</div>
+                      <div class="paper-links">
+                          <a href="https://openreview.net/pdf?id=HBrQI0tX8F" target="_blank">pdf</a>
+                          <a href="https://github.com/rmin2000/adv_tracing" target="_blank">code</a>
+                          <a href="https://openreview.net/forum?id=h1iJXAU9gDn" target="_blank">ML Safety Workshop (NeurIPS 2022)</a>
+                      </div>
+                  </div>
+              </div>
+
+
+            </div>
+        </section>
+      
+    </div>
+    <script>
+        const togglePapersButton = document.getElementById('togglePapers');
+        const togglePapersText = togglePapersButton.querySelector('.toggle-text');
+        const papers = Array.from(document.querySelectorAll('.paper-item'));
+        const transitionDuration = 340;
+
+        function setPaperVisibility(paper, shouldShow, animate) {
+            window.clearTimeout(paper.hideTimer);
+
+            if (shouldShow) {
+                paper.hidden = false;
+                paper.setAttribute('aria-hidden', 'false');
+
+                if (animate) {
+                    window.requestAnimationFrame(() => paper.classList.remove('is-hidden'));
+                } else {
+                    paper.classList.remove('is-hidden');
+                }
+                return;
+            }
+
+            paper.classList.add('is-hidden');
+            paper.setAttribute('aria-hidden', 'true');
+
+            if (animate) {
+                paper.hideTimer = window.setTimeout(() => {
+                    if (paper.classList.contains('is-hidden')) {
+                        paper.hidden = true;
+                    }
+                }, transitionDuration);
+            } else {
+                paper.hidden = true;
+            }
+        }
+
+        function setPapersExpanded(isExpanded, animate = true) {
+            papers.forEach((paper) => {
+                const isFeatured = paper.dataset.featured === 'true';
+                setPaperVisibility(paper, isExpanded || isFeatured, animate);
+            });
+
+            togglePapersText.textContent = isExpanded ? 'Show less' : 'Show all';
+            togglePapersButton.setAttribute('aria-expanded', String(isExpanded));
+            togglePapersButton.classList.toggle('is-expanded', isExpanded);
+        }
+
+        setPapersExpanded(false, false);
+        togglePapersButton.addEventListener('click', () => {
+            const isExpanded = togglePapersButton.getAttribute('aria-expanded') === 'true';
+            setPapersExpanded(!isExpanded);
+        });
+    </script>
+</body>
 </html>
